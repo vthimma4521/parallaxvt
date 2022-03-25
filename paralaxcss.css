@@ -1,0 +1,95 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+	background-color: #F8E1D4;
+}
+.container{
+    max-width: 1700px;
+    margin: 0 auto;
+    background: #fbcdb3;
+    font-size: 24px;
+    padding: 25px;
+    color: #332727;
+}
+.paralaxbackground{
+    background: url('paralaxpics/seoulday2.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-left: 830px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 8px;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    font-size: 50px;
+    font-weight: normal;
+    font-variant: normal;
+    text-align: left;
+    margin: auto;
+    text-shadow: 7px 6px 7px #181818;
+    color: #FFFFFF;
+}
+.paralax{
+    background: url('paralaxpics/seoulday2.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+	padding-left: 700px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 8px;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    font-size: 50px;
+    font-weight: normal;
+    font-variant: normal;
+    text-align: left;
+    margin: auto;
+    text-shadow: 7px 6px 7px #181818;
+    color: #FFFFFF;
+	height: 600px;
+}
+.paralax2{
+	background: url('paralaxpics/seouleve4.jpg') no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 600px;
+	padding-left: 700px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 8px;
+}
+.paralax3{
+	background: url('paralaxpics/seoulgreenery.jpg') no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 600px;
+	padding-left: 700px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 8px;
+}
+.paralax4{
+	background: url('paralaxpics/seoulback.jpg') no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 600px;
+	padding-left: 700px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 8px;
+}
+.paralax5{
+	background: url('paralaxpics/seoulback.jpg') no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 100px;
+	padding-left: 700px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 8px;
+}
+/*Rules for Ipad-like devices*/
+@media (max-width: 1024px){
+	.paralaxbackground{
+		padding-left: 330px;
+	}
+
+}
